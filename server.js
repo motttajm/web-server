@@ -19,7 +19,7 @@ app.use(middleWare.logger);
 
 // about page
 app.get('/about', middleWare.requireAuthentication, function (req, res) {
-	res.send('About us!');
+	res.send('About us!!!');
 });
 
 //expose the public folder
